@@ -7,5 +7,4 @@ A team work project to help students who take java in the summer and help them l
   - they can change any thing whenever they want - يمكنهم التعديل على اي شئ وقت يريدون
   **for normal people**  
    - you can see folders for every part of java - يمكنك الاطلاع على ملف لكل جزء من جافا 
-    ![folders]
-    (https://ibb.co/56kGR83)
+    ![Folders](https://ibb.co/56kGR83)
