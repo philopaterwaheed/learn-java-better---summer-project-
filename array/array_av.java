@@ -1,20 +1,20 @@
 import java.util.Scanner ;
-public class philo{
+public class Main{
 	public static void main(String[]args){
 	Scanner input = new Scanner (System.in);
-	int[]  philo = new int[5];
+	int[]  arr = new int[5];
         int count = 0;
         int count_2 = 0;
 
-    for(int i =0 ;i<philo.length;i++ )
+    for(int i =0 ;i<arr.length;i++ )
         {
 
-            philo[i]=input.nextInt();
-            if ( philo[i]<0)
+            arr[i]=input.nextInt();
+            if ( arr[i]<0)
                 break;
         }
-    for (int c = 0 ; c<philo.length;c++  ) {
-            count += philo[c] ;
+    for (int c = 0 ; c<arr.length;c++  ) {
+            count += arr[c] ;
             count_2++;
         }
 
