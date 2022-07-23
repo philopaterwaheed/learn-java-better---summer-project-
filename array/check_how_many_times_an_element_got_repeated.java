@@ -5,23 +5,15 @@ public class philo{
 	int[]  philo = new int[5];
         int [] count =new int[5];
 
-    for(int i =0 ;i<philo.length;i++ )
-                {
-                        philo[i]=input.nextInt();
+    for(int i =0 ;i<philo.length;i++ ) {
+               philo[i]=input.nextInt();
                       //  System.out.println(philo[i]);
-                        for ( int c =0; c < count.length ; c++ )
-                                {
+                        for ( int c =0; c < count.length ; c++ ) {
                                     if (philo[i]==philo[c])
-                                        count[i]++;                 
-
-
-
+                                        count[i]++;          
                                 }
-
-
-
                         {
-                            if ( philo[i]==0)
+                            if (philo[i]==0)
                             break;
                         }
                 }
@@ -32,3 +24,4 @@ public class philo{
 
         }
 }
+//clean code is the most important thing in coding to make it clear even to yourself
